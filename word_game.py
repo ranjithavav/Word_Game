@@ -18,12 +18,11 @@ finalStr = ''.join(char_list)
 uservalue = str( input("I have shuffled the letters of one Fruit to \"" + finalStr + "\".  Can you find Fruit name?  You have total 5 attempts.\nEnter fruit name here: " ))
 count = 1
 while uservalue != sampleStr:
-       uservalue = input("Sorry Wrong answer! Please try again :  ")
-       if count <= 3:
+       if count <= 4:
             count = count + 1
        else:
             print("Maximum attempt completed, Corrrect answer is", sampleStr)
             break;
-
+       uservalue = input("Sorry Wrong answer! Please try again :  ")
 if uservalue == sampleStr:
     print("Superb, you found the word:", sampleStr)
