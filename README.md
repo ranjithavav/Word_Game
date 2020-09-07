@@ -4,4 +4,5 @@ You can change 'Mylist' with your own words. And the game will select a random w
 Player need to find the word from the shuffled letters.
 Player can try answers upto 5 times.
 
-https://github.com/ranjithavav/Word_Game/blob/master/Sample_image.JPG?raw=true
+Sample Image //
+https://github.com/ranjithavav/Word_Game/blob/master/Sample_image.JPG
