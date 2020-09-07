@@ -15,7 +15,7 @@ sampleStr = Mylist[0]
 char_list = list(sampleStr)
 random.shuffle(char_list)
 finalStr = ''.join(char_list)
-uservalue = str( input("I have shuffled the letters of one Fruit to \"" + finalStr + "\".  Can you find Fruit name ?  You have total 5 attempts:  " ))
+uservalue = str( input("I have shuffled the letters of one Fruit to \"" + finalStr + "\".  Can you find Fruit name?  You have total 5 attempts.\nEnter fruit name here: " ))
 count = 1
 while uservalue != sampleStr:
        uservalue = input("Sorry Wrong answer! Please try again :  ")
