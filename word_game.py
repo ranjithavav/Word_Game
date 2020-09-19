@@ -9,7 +9,7 @@
 #-------------------------------------------------------------------------------
 
 import random
-Mylist = ['apple', 'banana', 'mango', 'orange', 'pineapple', 'banana', 'grapes']
+Mylist = ['apple', 'mango', 'orange', 'pineapple', 'banana', 'grapes']
 random.shuffle(Mylist)
 sampleStr = Mylist[0]
 char_list = list(sampleStr)
