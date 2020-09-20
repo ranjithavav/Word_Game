@@ -23,6 +23,6 @@ while uservalue != sampleStr:
        else:
             print("Maximum attempt completed, Corrrect answer is", sampleStr)
             break;
-       uservalue = input("Sorry Wrong answer! Please try again :  ")
+       uservalue = input("Sorry that is Wrong! Please try again :  ")
 if uservalue == sampleStr:
     print("Superb, you found the word:", sampleStr)
